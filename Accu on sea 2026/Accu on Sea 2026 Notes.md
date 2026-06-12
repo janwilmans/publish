@@ -1,8 +1,10 @@
 
 # Links
 
-- <nullptr.nl>
-default guidelines
+- <https://nullptr.nl>
+- https://github.com/janwilmans/guidelines
+- https://debug.vision
+
 
 
 # Tuesday
