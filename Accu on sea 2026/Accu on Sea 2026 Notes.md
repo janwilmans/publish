@@ -1,2 +1,2 @@
 # Tuesday
-![[images/IMG_20260612_225734 1.jpg]]
+![](images/IMG_20260612_225734%201.jpg)
