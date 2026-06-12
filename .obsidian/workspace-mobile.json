@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Accu on sea 2026/Accu on sea notes.md",
+            "file": "Accu on sea 2026/Accu on Sea 2026 Notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Accu on sea 2026/Accu on sea notes.md",
+            "file": "Accu on sea 2026/Accu on Sea 2026 Notes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -155,7 +155,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,7 +168,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "dbf4efac19c3113a",
+  "active": "101fc2f91c70f22d",
   "lastOpenFiles": [
     "Accu on sea 2026/images/IMG_20260613_004702.jpg",
     "Accu on sea 2026/images/IMG_20260612_225734.jpg",
