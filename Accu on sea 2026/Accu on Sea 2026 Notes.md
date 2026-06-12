@@ -1,7 +1,7 @@
 
 # Links
 
-- [nullptr.nl]
+- (nullptr.nl)
 default guidelines
 
 
