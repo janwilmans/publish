@@ -1,7 +1,7 @@
 
 # Links
 
-- [Default Guidelines](https://github.com/janwilmans/guidelines#c-default-guidelines)
+- [C++ Default Guidelines](https://github.com/janwilmans/guidelines#c-default-guidelines)
 - https://nullptr.nl/
 - https://github.com/janwilmans/guidelines/
 - https://debug.vision/
