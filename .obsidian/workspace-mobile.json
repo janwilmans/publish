@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Accu on sea notes.md",
+                "file": "Accu on sea 2026/Accu on sea notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Accu on sea notes.md",
+            "file": "Accu on sea 2026/Accu on sea notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Accu on sea notes.md",
+            "file": "Accu on sea 2026/Accu on sea notes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Accu on sea notes.md",
+            "file": "Accu on sea 2026/Accu on sea notes.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -168,8 +168,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "140322bc1c8dfad8",
+  "active": "58677b05ed2dcdca",
   "lastOpenFiles": [
-    "Accu on sea notes.md"
+    "Accu on sea 2026",
+    "Accu on sea 2026/Accu on sea notes.md"
   ]
 }
