@@ -6,10 +6,9 @@
 - https://github.com/janwilmans/guidelines/
 - https://debug.vision/
 
-# Tuesday
-[Shoppinglist](../Shoppinglist.md)
+[[Arrival on Tuesday]] 
 
-Today I will travel to Folkestone by car. 😎
+
 
 ## Information
 
