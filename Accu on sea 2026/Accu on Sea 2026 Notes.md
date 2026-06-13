@@ -8,17 +8,17 @@
 - https://github.com/janwilmans/guidelines/
 - https://debug.vision/
 
-[Arrival on Tuesday](Arrival%20on%20Tuesday.md)
+# News
 
+- https://herbsutter.com/2026/06/13/brno-trip-report/
+-
+# [Arrival on Tuesday](Arrival%20on%20Tuesday.md)
 
 
 ## Information
 
-- ⚜️ the train 🚆 will go under the channel with my car on board 💪👍💡
-- I will update this page during the conference.
--  Thanks for all the fish 🐠 🐟 🐠 🐟
-
-[Need for guidelines](Need%20for%20guidelines.md)
+- ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
+- I will post updates during the week about whats happening, talks that stand out to me and a collection of more or less random things. Come back for regular updates if you are interested 😋.
 
 
 
