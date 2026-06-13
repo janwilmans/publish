@@ -6,20 +6,13 @@
 - https://github.com/janwilmans/guidelines/
 - https://debug.vision/
 
-
-
 # Tuesday
 
-- talk 🦜 
-- test
-- bla
-- 
+Today I will travel to Folkestone by car. 😎
 
-## information
+## Information
 
-- ⚜️ less is more
--  this is how
-- 366999is the number!
+- ⚜️ the train 🚆 will go under the channel with my car on board 💪👍💡
 
 
 
