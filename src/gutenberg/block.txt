@@ -78,9 +78,48 @@
       return params.get("doc") || DEFAULT_DOC;
     }
 
+    // normalize encoded paths safely
+    function normalizeHref(href) {
+      try {
+        return decodeURIComponent(href);
+      } catch (e) {
+        return href;
+      }
+    }
+
+    // filesystem-style resolver
+    function resolvePath(basePath, relativePath) {
+
+      const baseParts = basePath.split("/");
+      baseParts.pop(); // remove filename
+
+      const relParts = relativePath.split("/");
+
+      for (const part of relParts) {
+
+        if (part === "..") {
+          baseParts.pop();
+        } else if (part === "." || part === "") {
+          continue;
+        } else {
+          baseParts.push(part);
+        }
+      }
+
+      return baseParts.join("/");
+    }
+
+    // safe GitHub API encoding (NO double encoding)
+    function safeEncodePath(path) {
+      return path
+        .split("/")
+        .map(segment => decodeURIComponent(segment))
+        .map(segment => encodeURIComponent(segment))
+        .join("/");
+    }
+
     function apiUrl(doc) {
-      return API_BASE +
-        doc.split("/").map(encodeURIComponent).join("/");
+      return API_BASE + safeEncodePath(doc);
     }
 
     function ghHeaders() {
@@ -111,21 +150,19 @@
 
     function rewriteLinks(docPath) {
       document.querySelectorAll("#content a").forEach(a => {
-        const href = a.getAttribute("href");
+        let href = a.getAttribute("href");
 
         if (!href || href.startsWith("http") || href.startsWith("#")) return;
 
-        const baseParts = docPath.split("/");
-        baseParts.pop();
+        href = normalizeHref(href);
 
-        const target = href.startsWith("../")
-          ? baseParts.join("/") + "/" + href.replace("../", "")
-          : baseParts.join("/") + "/" + href;
+        // BACKREFERENCE SUPPORT HERE
+        const targetPath = resolvePath(docPath, href);
 
         a.href =
           location.pathname +
           "?doc=" +
-          encodeURIComponent(target);
+          encodeURIComponent(targetPath);
       });
     }
 
