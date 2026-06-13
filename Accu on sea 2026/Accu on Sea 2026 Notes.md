@@ -7,6 +7,7 @@
 - https://debug.vision/
 
 # Tuesday
+[Shoppinglist](../Shoppinglist.md)
 
 Today I will travel to Folkestone by car. 😎
 
@@ -16,7 +17,7 @@ Today I will travel to Folkestone by car. 😎
 - I will update this page during the conference.
 -  Thanks for all the fish 🐠 🐟 🐠 🐟
 
-[Need for guidelines](../Need%20for%20guidelines.md)
+[Need for guidelines](Need%20for%20guidelines.md)
 
 
 
