@@ -13,6 +13,9 @@ Today I will travel to Folkestone by car. 😎
 ## Information
 
 - ⚜️ the train 🚆 will go under the channel with my car on board 💪👍💡
+- I will update this page during the conference.
+- 
+
 
 
 
