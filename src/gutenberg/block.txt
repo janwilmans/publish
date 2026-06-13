@@ -9,20 +9,12 @@
 
     // ---------------- CONFIG ----------------
 
-    const API_BASE =
-      "https://api.github.com/repos/janwilmans/publish/contents/";
-
-    const DEFAULT_DOC =
-      "Accu on sea 2026/Accu on Sea 2026 Notes.md";
-
+    const API_BASE = "https://api.github.com/repos/janwilmans/publish/contents/";
+    const DEFAULT_DOC = "Accu on sea 2026/Accu on Sea 2026 Notes.md";
     const TOKEN = "YOUR_GITHUB_TOKEN_HERE"; // optional but recommended
-
-    // ---------------- STATE ----------------
 
     let lastFileSha = null;
     let lastScrollRatio = 0;
-
-    // ---------------- STYLE ----------------
 
     const style = document.createElement("style");
     style.innerHTML = `
@@ -144,16 +136,12 @@
     }
 
     function saveScroll() {
-      const max =
-        document.documentElement.scrollHeight - window.innerHeight;
-
+      const max = document.documentElement.scrollHeight - window.innerHeight;
       lastScrollRatio = max > 0 ? window.scrollY / max : 0;
     }
 
     function restoreScroll() {
-      const max =
-        document.documentElement.scrollHeight - window.innerHeight;
-
+      const max = document.documentElement.scrollHeight - window.innerHeight;
       window.scrollTo(0, max * lastScrollRatio);
     }
 
@@ -167,11 +155,7 @@
 
         // BACKREFERENCE SUPPORT HERE
         const targetPath = resolvePath(docPath, href);
-
-        a.href =
-          location.pathname +
-          "?doc=" +
-          encodeURIComponent(targetPath);
+        a.href = location.pathname + "?doc=" + encodeURIComponent(targetPath);
       });
     }
 
@@ -221,22 +205,14 @@
         const md = decodeBase64Unicode(meta.content);
 
         saveScroll();
-
-        document.getElementById("content").innerHTML =
-          renderCard(md);
-
+        document.getElementById("content").innerHTML = renderCard(md);
         rewriteLinks(doc);
-
         requestAnimationFrame(restoreScroll);
-
-        console.log("Rendered:", doc);
-
+        //console.log("Rendered:", doc);
       } catch (err) {
 
         console.error(err);
-
-        document.getElementById("content").innerHTML =
-          "<pre style='color:red'>" + err.message + "</pre>";
+        document.getElementById("content").innerHTML = "<pre style='color:red'>" + err.message + "</pre>";
       }
     }
 
