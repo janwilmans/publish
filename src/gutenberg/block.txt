@@ -1,0 +1,62 @@
+<!--raw-->
+
+<div id="content"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+(function () {
+
+  // ---------------- MAKE CONTENT INTO A CARD ----------------
+  const style = document.createElement("style");
+  style.innerHTML = `
+    #content {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 24px;
+
+      background: #fff;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+
+      text-align: left;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    #content ul,
+    #content ol {
+      padding-left: 1.5em !important;
+      margin-left: 1em !important;
+      text-align: left !important;
+    }
+
+    #content li {
+      text-align: left !important;
+    }
+  `;
+  document.head.appendChild(style);
+
+  // ---------------- FETCH MARKDOWN ----------------
+  const url =    "https://raw.githubusercontent.com/janwilmans/publish/main/Accu%20on%20sea%202026/Accu%20on%20Sea%202026%20Notes.md?t=" + Date.now();
+
+  fetch(url, { cache: "no-store" })
+    .then(r => r.text())
+    .then(md => {
+      console.log("Markdown loaded:", md.length);
+
+      document.getElementById("content").innerHTML =
+        marked.parse(md);
+    })
+    .catch(err => {
+      console.error(err);
+      document.getElementById("content").innerHTML =
+        "<pre style='color:red'>" + err.message + "</pre>";
+    });
+
+})();
+</script>
+
+<!--/raw-->
