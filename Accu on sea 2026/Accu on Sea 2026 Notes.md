@@ -16,6 +16,7 @@ Today I will travel to Folkestone by car. 😎
 - I will update this page during the conference.
 -  update 5678
 - and more...no less 🙂‍↔️ 
+- and other things
 - 
 
 [Need for guidelines](../Need%20for%20guidelines.md)
