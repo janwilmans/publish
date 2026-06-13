@@ -15,11 +15,7 @@
 
 ## information
 
-- ⚜️ 
-- more
-- jaaaja 😎😎😎
--  unwell ❤️‍🩹 
-- test babette   99999
+- ⚜️ less is more
 - 
 
 
