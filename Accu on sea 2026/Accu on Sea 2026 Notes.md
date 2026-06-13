@@ -11,9 +11,7 @@
 # News
 
 - https://herbsutter.com/2026/06/13/brno-trip-report/
--
 # [Arrival on Tuesday](Arrival%20on%20Tuesday.md)
-
 
 ## Information
 
