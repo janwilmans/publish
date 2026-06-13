@@ -2,6 +2,8 @@
 # Links
 
 - [C++ Default Guidelines](https://github.com/janwilmans/guidelines#c-default-guidelines)
+- https://wg21.link/std23
+- https://wg21.link
 - https://nullptr.nl/
 - https://github.com/janwilmans/guidelines/
 - https://debug.vision/
