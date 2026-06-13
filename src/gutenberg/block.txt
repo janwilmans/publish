@@ -7,16 +7,22 @@
 <script>
   (function () {
 
-    const REPO_BASE =
-      "https://raw.githubusercontent.com/janwilmans/publish/main/";
+    // ---------------- CONFIG ----------------
+
+    const API_BASE =
+      "https://api.github.com/repos/janwilmans/publish/contents/";
 
     const DEFAULT_DOC =
-      "Accu%20on%20sea%202026/Accu%20on%20Sea%202026%20Notes.md";
+      "Accu on sea 2026/Accu on Sea 2026 Notes.md";
 
-    const REFRESH_INTERVAL = 10000;
+    const TOKEN = "YOUR_GITHUB_TOKEN_HERE"; // optional but recommended
 
-    let lastHash = null;
-    let lastScroll = 0;
+    // ---------------- STATE ----------------
+
+    let lastFileSha = null;
+    let lastScrollRatio = 0;
+
+    // ---------------- STYLE ----------------
 
     const style = document.createElement("style");
     style.innerHTML = `
@@ -31,9 +37,26 @@
 
       box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 
-      text-align: left;
       font-size: 16px;
       line-height: 1.6;
+      text-align: left;
+    }
+
+    #md-refresh-btn {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #f7f7f7;
+
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    #md-refresh-btn:hover {
+      background: #eee;
     }
 
     #content ul,
@@ -48,31 +71,42 @@
   `;
     document.head.appendChild(style);
 
+    // ---------------- HELPERS ----------------
+
     function getDoc() {
-      const p = new URLSearchParams(location.search);
-      return p.get("doc") || DEFAULT_DOC;
+      const params = new URLSearchParams(location.search);
+      return params.get("doc") || DEFAULT_DOC;
+    }
+
+    function apiUrl(doc) {
+      return API_BASE +
+        doc.split("/").map(encodeURIComponent).join("/");
+    }
+
+    function ghHeaders() {
+      const h = {
+        Accept: "application/vnd.github+json"
+      };
+
+      if (TOKEN && TOKEN !== "YOUR_GITHUB_TOKEN_HERE") {
+        h.Authorization = `Bearer ${TOKEN}`;
+      }
+
+      return h;
     }
 
     function saveScroll() {
       const max =
         document.documentElement.scrollHeight - window.innerHeight;
 
-      lastScroll = max > 0 ? window.scrollY / max : 0;
+      lastScrollRatio = max > 0 ? window.scrollY / max : 0;
     }
 
     function restoreScroll() {
       const max =
         document.documentElement.scrollHeight - window.innerHeight;
 
-      window.scrollTo(0, max * lastScroll);
-    }
-
-    async function hash(text) {
-      const buf = await crypto.subtle.digest(
-        "SHA-256",
-        new TextEncoder().encode(text)
-      );
-      return Array.from(new Uint8Array(buf)).join(",");
+      window.scrollTo(0, max * lastScrollRatio);
     }
 
     function rewriteLinks(docPath) {
@@ -95,29 +129,55 @@
       });
     }
 
-    async function load() {
+    // ---------------- BASE64 DECODER ----------------
+
+    function decodeBase64Unicode(base64) {
+      const binary = atob(base64);
+      const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+      return new TextDecoder("utf-8").decode(bytes);
+    }
+
+    // ---------------- LOAD ----------------
+
+    async function loadMarkdown(force = false) {
+
       try {
+
         const doc = getDoc();
+        const url = apiUrl(doc);
 
-        const url =
-          REPO_BASE +
-          doc +
-          "?t=" +
-          Date.now();
+        console.log("Fetching API:", url);
 
-        const md = await fetch(url, {
-          cache: "no-store"
-        }).then(r => r.text());
+        const meta = await fetch(url, {
+          headers: ghHeaders()
+        }).then(r => r.json());
 
-        const h = await hash(md);
+        if (!meta || meta.message) {
+          throw new Error(meta?.message || "GitHub API error");
+        }
 
-        if (h === lastHash) return;
+        if (!meta.sha) {
+          throw new Error("Missing SHA in response");
+        }
+
+        // &#x1f680; change detection via SHA
+        if (!force && meta.sha === lastFileSha) {
+          console.log("No changes detected");
+          return;
+        }
+
+        lastFileSha = meta.sha;
+
+        if (!meta.content) {
+          throw new Error("Missing Base64 content");
+        }
+
+        const md = decodeBase64Unicode(meta.content);
 
         saveScroll();
-        lastHash = h;
 
         document.getElementById("content").innerHTML =
-          marked.parse(md);
+          renderCard(md);
 
         rewriteLinks(doc);
 
@@ -125,15 +185,37 @@
 
         console.log("Rendered:", doc);
 
-      } catch (e) {
-        console.error(e);
+      } catch (err) {
+
+        console.error(err);
+
         document.getElementById("content").innerHTML =
-          "<pre style='color:red'>" + e.message + "</pre>";
+          "<pre style='color:red'>" + err.message + "</pre>";
       }
     }
 
-    load();
-    setInterval(load, REFRESH_INTERVAL);
+    // ---------------- UI ----------------
+
+    function renderCard(md) {
+      return `
+      <button id="md-refresh-btn">&#x1f504; Refresh</button>
+      <div id="md-body">
+        ${marked.parse(md)}
+      </div>
+    `;
+    }
+
+    // ---------------- EVENTS ----------------
+
+    document.addEventListener("click", (e) => {
+      if (e.target && e.target.id === "md-refresh-btn") {
+        loadMarkdown(true);
+      }
+    });
+
+    // ---------------- START ----------------
+
+    loadMarkdown();
 
   })();
 </script>
