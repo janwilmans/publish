@@ -16,7 +16,8 @@
 ## information
 
 - ⚜️ less is more
-- 
+-  diy is een test
+
 
 
 
