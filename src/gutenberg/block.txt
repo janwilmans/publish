@@ -47,16 +47,25 @@
       margin-bottom: 16px;
       padding: 8px 12px;
 
-      border: 1px solid #ccc;
+      border: 1px solid #1d4ed8;
       border-radius: 8px;
-      background: #f7f7f7;
+
+      background: #2563eb;
+      color: white;
 
       cursor: pointer;
       font-size: 14px;
+      font-weight: 500;
+
+      transition: background 0.2s ease, transform 0.1s ease;
     }
 
     #md-refresh-btn:hover {
-      background: #eee;
+      background: #1d4ed8;
+    }
+
+    #md-refresh-btn:active {
+      transform: scale(0.98);
     }
 
     #content ul,
@@ -235,7 +244,7 @@
 
     function renderCard(md) {
       return `
-      <button id="md-refresh-btn">&#x1f504; Refresh</button>
+      <button id="md-refresh-btn" class="hidden">&#x1f504; Refresh</button>
       <div id="md-body">
         ${marked.parse(md)}
       </div>
