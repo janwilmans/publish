@@ -5,18 +5,28 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <script>
-(function () {
+  (function () {
 
-  // ---------------- MAKE CONTENT INTO A CARD ----------------
-  const style = document.createElement("style");
-  style.innerHTML = `
+    const REPO_BASE =
+      "https://raw.githubusercontent.com/janwilmans/publish/main/";
+
+    const DEFAULT_DOC =
+      "Accu%20on%20sea%202026/Accu%20on%20Sea%202026%20Notes.md";
+
+    const REFRESH_INTERVAL = 10000;
+
+    let lastHash = null;
+    let lastScroll = 0;
+
+    const style = document.createElement("style");
+    style.innerHTML = `
     #content {
       max-width: 900px;
       margin: 40px auto;
       padding: 24px;
 
       background: #fff;
-      border: 2px solid #ddd;
+      border: 1px solid #ddd;
       border-radius: 12px;
 
       box-shadow: 0 6px 20px rgba(0,0,0,0.08);
@@ -30,33 +40,102 @@
     #content ol {
       padding-left: 1.5em !important;
       margin-left: 1em !important;
-      text-align: left !important;
     }
 
-    #content li {
-      text-align: left !important;
+    #content pre {
+      overflow-x: auto;
     }
   `;
-  document.head.appendChild(style);
+    document.head.appendChild(style);
 
-  // ---------------- FETCH MARKDOWN ----------------
-  const url =    "https://raw.githubusercontent.com/janwilmans/publish/main/Accu%20on%20sea%202026/Accu%20on%20Sea%202026%20Notes.md?t=" + Date.now();
+    function getDoc() {
+      const p = new URLSearchParams(location.search);
+      return p.get("doc") || DEFAULT_DOC;
+    }
 
-  fetch(url, { cache: "no-store" })
-    .then(r => r.text())
-    .then(md => {
-      console.log("Markdown loaded:", md.length);
+    function saveScroll() {
+      const max =
+        document.documentElement.scrollHeight - window.innerHeight;
 
-      document.getElementById("content").innerHTML =
-        marked.parse(md);
-    })
-    .catch(err => {
-      console.error(err);
-      document.getElementById("content").innerHTML =
-        "<pre style='color:red'>" + err.message + "</pre>";
-    });
+      lastScroll = max > 0 ? window.scrollY / max : 0;
+    }
 
-})();
+    function restoreScroll() {
+      const max =
+        document.documentElement.scrollHeight - window.innerHeight;
+
+      window.scrollTo(0, max * lastScroll);
+    }
+
+    async function hash(text) {
+      const buf = await crypto.subtle.digest(
+        "SHA-256",
+        new TextEncoder().encode(text)
+      );
+      return Array.from(new Uint8Array(buf)).join(",");
+    }
+
+    function rewriteLinks(docPath) {
+      document.querySelectorAll("#content a").forEach(a => {
+        const href = a.getAttribute("href");
+
+        if (!href || href.startsWith("http") || href.startsWith("#")) return;
+
+        const baseParts = docPath.split("/");
+        baseParts.pop();
+
+        const target = href.startsWith("../")
+          ? baseParts.join("/") + "/" + href.replace("../", "")
+          : baseParts.join("/") + "/" + href;
+
+        a.href =
+          location.pathname +
+          "?doc=" +
+          encodeURIComponent(target);
+      });
+    }
+
+    async function load() {
+      try {
+        const doc = getDoc();
+
+        const url =
+          REPO_BASE +
+          doc +
+          "?t=" +
+          Date.now();
+
+        const md = await fetch(url, {
+          cache: "no-store"
+        }).then(r => r.text());
+
+        const h = await hash(md);
+
+        if (h === lastHash) return;
+
+        saveScroll();
+        lastHash = h;
+
+        document.getElementById("content").innerHTML =
+          marked.parse(md);
+
+        rewriteLinks(doc);
+
+        requestAnimationFrame(restoreScroll);
+
+        console.log("Rendered:", doc);
+
+      } catch (e) {
+        console.error(e);
+        document.getElementById("content").innerHTML =
+          "<pre style='color:red'>" + e.message + "</pre>";
+      }
+    }
+
+    load();
+    setInterval(load, REFRESH_INTERVAL);
+
+  })();
 </script>
 
 <!--/raw-->
