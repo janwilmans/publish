@@ -16,8 +16,7 @@
 ## information
 
 - ⚜️ less is more
--  diy is een test
-- is this live?? ❤️‍🩹🔥😋😂
+-  this is how
 - 
 
 
