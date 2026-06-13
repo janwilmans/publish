@@ -6,7 +6,7 @@
 - https://github.com/janwilmans/guidelines/
 - https://debug.vision/
 
-[[Arrival on Tuesday]] 
+[Arrival on Tuesday](Arrival%20on%20Tuesday.md)
 
 
 
