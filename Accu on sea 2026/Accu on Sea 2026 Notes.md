@@ -11,9 +11,11 @@ Join the discord server, link below 👇
 
 - https://herbsutter.com/2026/06/13/brno-trip-report/
 - [Overview](../Overview.md)
-# [Arrival on Tuesday](Arrival%20on%20Tuesday.md)
 
-[Schedule Wednesday](../Schedule%20Wednesday.md)
+Blogging pages
+
+- [Arrival on Tuesday](Arrival%20on%20Tuesday.md)
+- [Schedule Wednesday](../Schedule%20Wednesday.md)
 
 ## Information
 

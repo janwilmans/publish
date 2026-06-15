@@ -1,3 +1,5 @@
+My intended schedule for this day:
+
 - 9:30 Keynote: Andrei Alexandrescu
 - 11:00 Break
 - 11:30 The Async graveyard, Robert Leahy
