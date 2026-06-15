@@ -1,19 +1,12 @@
 
 # ACCU on Sea 2026 Live Blog
 
-- https://accuonsea.uk/2026/schedule/index.html
-- [C++ Default Guidelines](https://github.com/janwilmans/guidelines#c-default-guidelines)
-- https://github.com/CobaltFusion/timelens
-- https://www.meetup.com/cpp_meetup_eindhoven/
-- https://cppunderthesea.nl/
-- https://github.com/janwilmans/OpenCanary
-- https://wg21.link/std23
-- https://wg21.link
-- https://nullptr.nl/
-- https://github.com/janwilmans/guidelines/
-- https://github.com/CobaltFusion/DebugViewPP
-- https://debug.vision/
+Join the discord server, link below 👇 
 
+- https://accuonsea.uk/2026/schedule/index.html
+- https://accuonsea.uk/discord/
+
+[More links](../More%20links.md)
 # News
 
 - https://herbsutter.com/2026/06/13/brno-trip-report/
