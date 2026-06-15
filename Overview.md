@@ -1,0 +1,82 @@
+## Events
+ 
+ - 72 Speakers
+ - 10 Workshops
+ - 4 Keynotes
+ - Movie Night
+ - Lightning Talks
+
+## Speakers
+ 
+ - Adrien Devresse
+ - Alex Dathskovsky
+ - Aliaksandr Kharlamau
+ - Amir Kirsh
+ - Anders Schau Knatten
+ - Andreas Fertig
+ - Andrew Drakeford
+ - Anthony Williams
+ - Antonello Palazzi
+ - Bernhard Merkle
+ - Björn Fahller
+ - Braden Ganetsky
+ - Callum Piper
+ - Chandranath Bhattacharyya
+ - Dan Katz
+ - David Olsen
+ - Dietmar Kühl
+ - Eran Gilad
+ - Florian Gilcher
+ - Francis Glassborow
+ - Greg Law
+ - Hana Dusíková
+ - Hubert Liberacki
+ - Hui Xie
+ - Inbal Levi
+ - Jason Turner
+ - Jędrzej Michalczyk
+ - Johannes Kalmbach
+ - John Lakos
+ - Jon Bauman
+ - Kathleen Baker
+ - Kay Hicketts
+ - Keith Stockdale
+ - Kevin B. Carpenter
+ - Kevlin Henney
+ - Klaus Iglberger
+ - Lara Bailey
+ - Laurie Kirk
+ - Lucian Radu Teodorescu
+ - Luis Caro Campos
+ - Mark Williamson
+ - Mathieu Ropert
+ - Matt Godbolt
+ - Nevin ":-)" Liber
+ - Nicolai M. Josuttis
+ - Ofek Shilon
+ - Paul Jansen
+ - Peter Hrenka
+ - Peter Muldoon
+ - Phil Nash
+ - Prithvi Okade
+ - Robert C. Seacord
+ - Robert Leahy
+ - Robert Schimkowitsch
+ - Roi Barkan
+ - Roth Michaels
+ - Sandor DARGO
+ - Sarthak Sehgal
+ - Sejal
+ - Sherry Sontag
+ - Shreyansh Jain
+ - Steve Sorkin
+ - Taylor Cramer
+ - Tim Condon
+ - Timur Doumler
+ - Tina Ulbrich
+ - Tony Van Eerd
+ - Tristan Brindle
+ - Victor Ciura
+ - Vladimir Vishnevskii
+ - Walter E Brown
+ - Yvonne Rogers
