@@ -1,6 +1,7 @@
 
-# Links
+# ACCU on Sea 2026 Live Blog
 
+- https://accuonsea.uk/2026/schedule/index.html
 - [C++ Default Guidelines](https://github.com/janwilmans/guidelines#c-default-guidelines)
 - https://github.com/CobaltFusion/timelens
 - https://www.meetup.com/cpp_meetup_eindhoven/
