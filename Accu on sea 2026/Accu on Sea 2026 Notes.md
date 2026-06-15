@@ -12,6 +12,8 @@ Join the discord server, link below 👇
 - https://herbsutter.com/2026/06/13/brno-trip-report/
 # [Arrival on Tuesday](Arrival%20on%20Tuesday.md)
 
+
+
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
