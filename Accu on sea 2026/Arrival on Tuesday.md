@@ -1,4 +1,6 @@
 
 - Today I will travel to Folkestone by car. 😎
-- Leaving Rosmalen at 10:00 🚗 
+- Leaving Rosmalen at 9:15 🚗 
+- Last minute shopping 🛒 
+- Looking at the schedule for tomorrow, we have a busy and super exciting week ahead of us! So many great talks, it will be hard to decide which ones to see live 😂🔥
 - Planning to arrive at [LeShuttle Calais](https://maps.app.goo.gl/bCganWLqdDno4SCn7) around 14:00
