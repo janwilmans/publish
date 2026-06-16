@@ -14,7 +14,7 @@ Join the discord server, link below 👇
 
 Blogging pages
 
-- [Arrival on Tuesday](Arrival%20on%20Tuesday.md)
+- [Arrived! on Tuesday](Arrived!%20on%20Tuesday.md)
 - [Schedule Wednesday](../Schedule%20Wednesday.md)
 
 ## Information
