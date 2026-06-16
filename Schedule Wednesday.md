@@ -1,4 +1,4 @@
-My intended schedule for this day:
+My intended schedule for Wednesday:
 
 - 9:30 Keynote: Andrei Alexandrescu
 - 11:00 Break

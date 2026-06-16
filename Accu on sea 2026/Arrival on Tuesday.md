@@ -8,3 +8,4 @@
 - About 2 hours left to Calais 🚗
 - 13:25 Arrived at Calais, it was a smooth ride, traffic 🚦 was not bad at all. Also its pretty quiet at LeShuttle. 
 - Train delayed from 14:46 to 15:37, I'm told by the status board to wait patiently 😁
+- 14:35 proceeded to border patrols
