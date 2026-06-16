@@ -6,3 +6,4 @@
 - Planning to arrive at [LeShuttle Calais](https://maps.app.goo.gl/bCganWLqdDno4SCn7) around 14:00
 - 11:20 Pitstop at Kruibeke, I passed the Antwerpen traffic 🥳 🥳 
 - About 2 hours left to Calais 🚗
+- 13:25 Arrived at Calais, it was a smooth ride, traffic 🚦 was not bad at all. Also its pretty quiet at LeShuttle. 
