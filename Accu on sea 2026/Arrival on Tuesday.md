@@ -4,3 +4,5 @@
 - Last minute shopping 🛒 
 - Looking at the schedule for tomorrow, we have a busy and super exciting week ahead of us! So many great talks, it will be hard to decide which ones to see live 😂🔥
 - Planning to arrive at [LeShuttle Calais](https://maps.app.goo.gl/bCganWLqdDno4SCn7) around 14:00
+- 11:20 Pitstop at Kruibeke, I passed the Antwerpen traffic 🥳 🥳 
+- About 2 hours left to Calais 🚗
