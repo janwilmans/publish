@@ -13,3 +13,6 @@
 - 15:37 We are on the train and on the way to Folkstone !🔥
 - 15:20 We jumped back in time 😋, now arriving at the Folkstone station.
 - 16:15 Arrived and ✅ checked into the BnB @ Folkestone
+- 18:00 Reception and chatting with friends
+- 19:00 Dinner with Klaus, Bjorn, Peter and Robert
+- 20:30 Drinks with Braden, Dan, Niven  Nathan, Raphael, Eddie and Timor
