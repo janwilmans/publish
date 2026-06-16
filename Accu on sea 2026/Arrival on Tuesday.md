@@ -10,3 +10,5 @@
 - Train delayed from 14:46 to 15:37, I'm told by the status board to wait patiently 😁
 - 14:35 Proceeded to border patrols
 - 15:20 Passed two border patrols and Customs 🛃 and now the train has 'a delay due to unexpected capacity restrictions '😂. So now we wait ⚜️
+- 15:37 We are on the train and on the way to Folkstone !🔥
+- 15:20 We jumped back in time 😋, now arriving at the Folkstone station.
