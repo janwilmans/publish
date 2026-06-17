@@ -49,6 +49,27 @@ A Personal Retrospective
 - He continues to tell the story about C++ and his contribution/involvement to the standards commissie
 - It was a great story about how anyone can become involved and contribute to the standardization process
 
+## Klaus Iglberger
+
+Design Patterns, The Most Common Misconceptions ( 3 of N)
+
+Klaus we know as the Design-Patterns-Guy and the creator of the now famous Klaus-initialization rule.
+
+- Klaus talks again on Design Patterns like we are now used to from him.
+- #1 Adaptor, 
+- std::stack and std::queue are adaptors!
+- I have to try std::pmr::vector and implement my own allocator
+- Expect adaptors in any form classes, templates or free functions
+#2 Decorators 
+- std::pmr::vector<std::pmr::string> demo
+
+#3 Expression Templates
+- DynamicVector, demonstrate lazy operator[] functions
+#4 demo of lazy ranges views
+Range Adaptors might be a misnomer, they are decorators (mostly)
+
+
+
 
 
 
