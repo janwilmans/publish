@@ -68,6 +68,12 @@ Klaus we know as the Design-Patterns-Guy and the creator of the now famous Klaus
 #4 demo of lazy ranges views
 Range Adaptors might be a misnomer, they are decorators (mostly)
 
+Lightning talks
+-  Will Bucanan: We abstracted away thinking, is this ok? 
+- Dietmar : deducing this
+- Will sings bill rutherford: a song on stage 😂💬
+- Sandor Dargo: never call now() mock it using std::function?
+- Lieven: verify your headers 
 
 
 
