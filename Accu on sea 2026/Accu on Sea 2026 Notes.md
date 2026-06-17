@@ -22,7 +22,11 @@ Blogging pages
 - Breakfast with Justin Link (nice to meet you Justin!)
 - 8:50 off to the welcome speech 💬 
 - Guy wakes us all up and entertains as he does 😋
-- 9:30 Andrei Alexandrescu talks about **Abstraction** as the ultimate software engineering tool. Also a look at predictions from the past and a lookout into the next 20 years/months/weeks/days!? How is AI going to change the way we develop software? 
+- 9:30 Andrei Alexandrescu talks about **Abstraction** as the ultimate software engineering tool. Also a look at predictions from the past and a lookout into the next 20 years/months/weeks/days!? How is AI going to change the way we develop software? Are we now in a reverse centaur stance ? 
+
+A model can teach you how to use *it*. This has now precedent in human history. 
+
+
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
