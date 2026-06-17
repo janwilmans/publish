@@ -17,6 +17,11 @@ Blogging pages
 - [Arrived! on Tuesday](Arrived!%20on%20Tuesday.md)
 - [Schedule Wednesday](../Schedule%20Wednesday.md)
 
+## Start of day 1
+
+- Breakfast with Justin Link (nice to meet you Justin!)
+- 8:50 off to the welcome speech 💬 
+- 
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.

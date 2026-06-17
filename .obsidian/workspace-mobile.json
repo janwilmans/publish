@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Accu on sea 2026/Arrived! on Tuesday.md",
+                "file": "Accu on sea 2026/Accu on Sea 2026 Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arrived! on Tuesday"
+              "title": "Accu on Sea 2026 Notes"
             }
           }
         ],
@@ -174,7 +174,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Accu on sea 2026/Arrived! on Tuesday.md",
+            "file": "Accu on sea 2026/Accu on Sea 2026 Notes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -213,9 +213,9 @@
   },
   "active": "c1f5a993058b958b",
   "lastOpenFiles": [
+    "Schedule Wednesday.md",
     "Accu on sea 2026/Accu on Sea 2026 Notes.md",
     "Accu on sea 2026/Arrived! on Tuesday.md",
-    "Schedule Wednesday.md",
     "Overview.md",
     "Accu on sea 2026/().md",
     "Accu on sea 2026/Route.md",
