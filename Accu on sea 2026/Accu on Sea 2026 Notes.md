@@ -32,7 +32,20 @@ Contracts are a specification language on top of C++, which will be good for cre
 
 ## The Async graveyard, Robert Leahy
 
-- 11:30 Robert talks about C functions in C++ wrappers
+- 11:30 Robert talks about C functions in C++ wrappers leading into sleeping threads that block on synchronous operations.
+- C-ARES async library introduced, explanation of separation of responsibilities of caller and continuation
+- A exploration or async executions using various means follows, std::async, coroutines and senders
+- I lost track of the story somewhere, because of the sheet volume of information 😂
+- Take away: senders/receivers are basic building blocks for all asynchronous invocation, and if you known eventual time bounds up front , you can use them without any dynamic allocation 
+
+## Nevin "";)" Liber
+
+16 years doing C++ Standardization Work
+A Personal Retrospective
+
+- 
+
+
 
 
 
