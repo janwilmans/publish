@@ -43,7 +43,10 @@ Contracts are a specification language on top of C++, which will be good for cre
 16 years doing C++ Standardization Work
 A Personal Retrospective
 
-- 
+- Nevin tells a story about the start of his career at Bell labs.
+- He continues to tell the story about C++ and his contribution/involvement to the standards commissie
+- It was a great story about how anyone can become involved and contribute to the standardization process
+
 
 
 
