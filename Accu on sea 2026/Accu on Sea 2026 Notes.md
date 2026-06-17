@@ -22,9 +22,20 @@ Blogging pages
 - Breakfast with Justin Link (nice to meet you Justin!)
 - 8:50 off to the welcome speech 💬 
 - Guy wakes us all up and entertains as he does 😋
+## Andrei Alexandrescu's Keynote
+
 - 9:30 Andrei Alexandrescu talks about **Abstraction** as the ultimate software engineering tool. Also a look at predictions from the past and a lookout into the next 20 years/months/weeks/days!? How is AI going to change the way we develop software? Are we now in a reverse centaur stance ? 
 
 A model can teach you how to use *it*. This has now precedent in human history. 
+
+Contracts are a specification language on top of C++, which will be good for creating and checking AI generated code.
+
+## The Async graveyard, Robert Leahy
+
+- 11:30 Robert talks about C functions in C++ wrappers
+
+
+
 
 
 ## Information
