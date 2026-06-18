@@ -63,6 +63,11 @@ Amir, Open Content: Coding with AI, let's get aligned
 - constexpr functions are implicitly inline.
 - constexpr variables must be marked static unless you want it to be unique on the stack when recursively. If not marked static it will be initializes again for every call.
 - use 'if constexpr' instead of template specialization always when you know all the cases. (so unless you want the user to be able to add specializations)
+- if not consteval  {} 😋❤️
+- constinit to avoid order of initialization problems? 
+- what does static mean in a constexpr function??
+- constexpr constructors mean the type is initialized at compile time if it can?
+-  constexpr construction is required for constinit
 - 
 ## Information
 
