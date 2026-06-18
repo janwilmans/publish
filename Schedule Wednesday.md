@@ -1,0 +1,11 @@
+My intended schedule for Wednesday:
+
+- 9:30 Keynote: Andrei Alexandrescu
+- 11:00 Break
+- 11:30 The Async graveyard, Robert Leahy
+- 13:00 Lunch
+- 14:30 choose: Contracts or Senders or 16 Years Doing C++ Standardization Work.
+- 16:30 Klaus : Common Misconceptions
+- 18:00 Lightning talks
+- 19:00 Welcome reception 
+- 20:30 Undo Quiz Night

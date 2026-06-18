@@ -1,0 +1,18 @@
+
+- Today I will travel to Folkestone by car. 😎
+- Leaving Rosmalen at 9:15 🚗 
+- Last minute shopping 🛒 
+- Looking at the schedule for tomorrow, we have a busy and super exciting week ahead of us! So many great talks, it will be hard to decide which ones to see live 😂🔥
+- Planning to arrive at [LeShuttle Calais](https://maps.app.goo.gl/bCganWLqdDno4SCn7) around 14:00
+- 11:20 Pitstop at Kruibeke, I passed the Antwerpen traffic 🥳 🥳 
+- About 2 hours left to Calais 🚗
+- 13:25 Arrived at Calais, it was a smooth ride, traffic 🚦 was not bad at all. Also its pretty quiet at LeShuttle. 
+- Train delayed from 14:46 to 15:37, I'm told by the status board to wait patiently 😁
+- 14:35 Proceeded to border patrols
+- 15:20 Passed two border patrols and Customs 🛃 and now the train has 'a delay due to unexpected capacity restrictions '😂. So now we wait ⚜️
+- 15:37 We are on the train and on the way to Folkstone !🔥
+- 15:20 We jumped back in time 😋, now arriving at the Folkstone station.
+- 16:15 Arrived and ✅ checked into the BnB @ Folkestone
+- 18:00 Reception and chatting with friends
+- 19:00 Dinner with Klaus, Bjorn, Peter and Robert
+- 20:30 Drinks with Braden, Dan, Niven  Nathan, Raphael, Eddie and Timor
