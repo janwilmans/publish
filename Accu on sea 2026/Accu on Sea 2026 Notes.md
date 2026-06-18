@@ -20,18 +20,16 @@ Blogging pages
 
 ## Thursday, day 2
 
-- 7:05 update blog , planned time: 10 minutes, actually it took almost 40 minutes, since my editing skills on android are subpar 😋
+- 7:05 update blog , planned time: 10 minutes, actually it took almost 40 minutes, since my editing skills on android are sub-par 😋
 - 07:59 off to breakfast 🥞 ❤️
-- 
 
+## Keynote: Walter Brown
 
-
-.
-
-
-
-
-
+- 09:19 Walter Brown talks about the history of programming, mentioning the Lego Turing Machine
+- Whimsical animations of LISP using a Star Wars like introduction
+- 09:25 Demo of programming in th 50's?
+- Emphasis we should repopularize Thusly instead 'like this'.  
+- An explanation of how LISP syntax works follows.
 
 
 
