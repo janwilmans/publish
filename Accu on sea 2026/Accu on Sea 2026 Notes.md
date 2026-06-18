@@ -16,6 +16,11 @@ Blogging pages
 
 - [Arrived! on Tuesday](Arrived!%20on%20Tuesday.md)
 - [Schedule Wednesday](../Schedule%20Wednesday.md)
+- [Wednesday Day 1](Wednesday.md)
+
+Thursday, day 2
+
+
 
 ## Start of day 1
 
@@ -73,8 +78,22 @@ Lightning talks
 - Dietmar : deducing this
 - Will sings bill rutherford: a song on stage 😂💬
 - Sandor Dargo: never call now() mock it using std::function?
-- Lieven: verify your headers 
+- Lieven de Cock verify your headers , look into BASEDIR in cmake
+- Pete goodliffe: computer puzzles 
+- Florian: author of the Berlin code of conduct, helps to align values also between organisers
+- Dom Davis: Life, talk about Stuff , ACCU needs help.
+- Keith Stock performance reviews at Microsoft, STL made std::excepted nodiscard in MSVC 
+-  Cassio Neri: Dragon Lord 🔥 Floating point number do not exist 😂 Math fun.
+- Chris Oldwood: coding phuns
 
+## Dinner at the Rosemond
+
+- The rib eye was great still 😋
+- Nice dinner with Anders, Robert and more friends (I'm so bad with names I will have to add them in later)
+
+## Back to the venue
+
+Back at the venue to do a hallway track, Talked to Tim van Deurzen and software signal analyzer.
 
 
 
@@ -87,8 +106,3 @@ Lightning talks
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
 - I will post updates during the week about whats happening, talks that stand out to me and a collection of more or less random things. Come back for regular updates if you are interested 😋.
-
-
-
-
-
