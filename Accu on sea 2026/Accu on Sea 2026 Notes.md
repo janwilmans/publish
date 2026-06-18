@@ -82,7 +82,14 @@ Amir, Open Content: Coding with AI, let's get aligned
 - Hylo
 - Testudo codeberg.org/chussong/testudo
 - Try boost continuations, for low latency asynchronous programming, like coroutines, but stack full, lightweight and does not litter all your code with coroutine knowledge.
-- 
+
+## Movie Night: Walter Brown
+
+- Hand selected series of entertaining movie clips, computer programming themed. 
+- Food: most people decided to enjoy the think-cell kabab 😋 Thanks Think-cell !
+
+
+
 
 ## Information
 
