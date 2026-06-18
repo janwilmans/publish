@@ -60,6 +60,10 @@ Amir, Open Content: Coding with AI, let's get aligned
 - static variabeles in inline functions are guaranteed to appears only once
 - inline static variables in C++17
 - in class implemented member functions are implicitly inline (so can be included/cost size in multiple translation units, the linker may deduplicate them or not.
+- constexpr functions are implicitly inline.
+- constexpr variables must be marked static unless you want it to be unique on the stack when recursively. If not marked static it will be initializes again for every call.
+- use 'if constexpr' instead of template specialization always when you know all the cases. (so unless you want the user to be able to add specializations)
+- 
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
