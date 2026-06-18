@@ -68,7 +68,19 @@ Amir, Open Content: Coding with AI, let's get aligned
 - what does static mean in a constexpr function??
 - constexpr constructors mean the type is initialized at compile time if it can?
 -  constexpr construction is required for constinit
+
+## Laurie Kirk, runtime reflection 
+
+- Laurie explains reflection syntax step by step
+- RTTI disabling for.smaller binaries?
+- Very nice talk  but I had to pay real good attention, so I could not live-blog at the same time 😂
+## Lightning talks
+
+- Arrow IPC , Arrow flight ✈️ 
+- https://omniverse.ru/talks/accuonsea-2026-table/
 - 
+
+
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
