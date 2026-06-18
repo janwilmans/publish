@@ -1,3 +1,4 @@
+
 ## Start of day 1
 
 - Breakfast with Justin Link (nice to meet you Justin!)
@@ -20,4 +21,53 @@ Andrei talked about how AI might become the ultimate code optimizer once compile
 - A exploration or async executions using various means follows, std::async, coroutines and senders
 - I lost track of the story somewhere, because of the sheet volume of information 😂
 - Take away: senders/receivers are basic building blocks for all asynchronous invocation, and if you known eventual time bounds up front , you can use them without any dynamic allocation 
-- 
+
+## Nevin "";)" Liber
+
+16 years doing C++ Standardization Work
+A Personal Retrospective
+
+- Nevin tells a story about the start of his career at Bell labs.
+- He continues to tell the story about C++ and his contribution/involvement to the standards commissie
+- It was a great story about how anyone can become involved and contribute to the standardization process
+
+## Klaus Iglberger
+
+Design Patterns, The Most Common Misconceptions ( 3 of N)
+
+Klaus we know as the Design-Patterns-Guy and the creator of the now famous Klaus-initialization rule.
+
+- Klaus talks again on Design Patterns like we are now used to from him.
+- #1 Adaptor, 
+- std::stack and std::queue are adaptors!
+- I have to try std::pmr::vector and implement my own allocator
+- Expect adaptors in any form classes, templates or free functions
+#2 Decorators 
+- std::pmr::vector<std::pmr::string> demo
+
+#3 Expression Templates
+- DynamicVector, demonstrate lazy operator[] functions
+#4 demo of lazy ranges views
+Range Adaptors might be a misnomer, they are decorators (mostly)
+
+Lightning talks
+-  Will Bucanan: We abstracted away thinking, is this ok? 
+- Dietmar : deducing this
+- Will sings bill rutherford: a song on stage 😂💬
+- Sandor Dargo: never call now() mock it using std::function?
+- Lieven de Cock verify your headers , look into BASEDIR in cmake
+- Pete goodliffe: computer puzzles 
+- Florian: author of the Berlin code of conduct, helps to align values also between organisers
+- Dom Davis: Life, talk about Stuff , ACCU needs help.
+- Keith Stock performance reviews at Microsoft, STL made std::excepted nodiscard in MSVC 
+-  Cassio Neri: Dragon Lord 🔥 Floating point number do not exist 😂 Math fun.
+- Chris Oldwood: coding phuns
+
+## Dinner at the Rosemond
+
+- The rib eye was great still 😋
+- Nice dinner with Anders, Robert and more friends (I'm so bad with names I will have to add them in later)
+
+## Back to the venue
+
+Back at the venue to do a hallway track, Talked to Tim van Deurzen and software signal analyzer
