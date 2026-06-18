@@ -78,8 +78,11 @@ Amir, Open Content: Coding with AI, let's get aligned
 
 - Arrow IPC , Arrow flight ✈️ 
 - https://omniverse.ru/talks/accuonsea-2026-table/
+- Kevlin Henney on time
+- Hylo
+- Testudo codeberg.org/chussong/testudo
+- Try boost continuations, for low latency asynchronous programming, like coroutines, but stack full, lightweight and does not litter all your code with coroutine knowledge.
 - 
-
 
 ## Information
 
