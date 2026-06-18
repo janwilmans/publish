@@ -36,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,10 +183,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "c1f5a993058b958b",
+  "active": "48d61ea36c693e25",
   "lastOpenFiles": [
-    "More links.md",
+    "Accu on sea 2026/Wednesday.md",
     "Accu on sea 2026/Accu on Sea 2026 Notes.md",
+    "Schedule Wednesday.md",
+    "Overview.md",
+    "Accu on sea 2026/Route.md",
+    "Accu on sea 2026/Arrived! on Tuesday.md",
+    "Accu on sea 2026/().md",
+    "More links.md",
     "Accu on sea 2026/Arrival on Tuesday.md",
     "src/gutenberg/block.txt",
     "src/gutenberg",
