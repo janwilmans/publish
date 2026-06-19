@@ -21,9 +21,22 @@ Blogging pages
 
 ## Friday, day 3
 - 09:06 Walk to the venue, running a bit late🫩 
-- 
-- 
+- Still making it in time for Imbal's talk about all the new things in C++26❤️
+https://slides.com/d/3xvcfGk/live
 
+- reflection
+- define_aggragate and the lift-operator (unibrow or catsears operator)
+- contracts
+- not in C++26 : contracts for virtual functions 
+- executions, portable, gpu executions
+- std::simd
+- std::linalg matrix multiplication, some already possible with std::mdspan from C++23
+- placeholder _ building block for template matching
+## Generating Language Bindings using C++ Reflection
+
+- Callum Piper talks about implementing python bindings using C+26 reflection
+- consteval function templates look really useful
+- 
 
 ## Information
 
