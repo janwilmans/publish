@@ -49,6 +49,11 @@ Walk with Sandor DARGO during lunch into the city center.
 -  testing, contracts , if a contract is violated, it is a bug.
 - CodeQL ?
 - writing the same algorithm simpler or from a non-production library is valuable for testing
+## KEYNOTE: Out of Our Minds: What is AI Doing To Us and For Us?
+
+- How to organize your 💬 thoughts
+- Tortoise AI scribe ?
+- Should AI reduce or speed up thinking  and /or cognitive load
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
