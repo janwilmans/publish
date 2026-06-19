@@ -47,7 +47,8 @@ Walk with Sandor DARGO during lunch into the city center.
 - IEC 61508 industry standard 
 - ISO 26262 is based on it for automotive software
 -  testing, contracts , if a contract is violated, it is a bug.
-- 
+- CodeQL ?
+- writing the same algorithm simpler or from a non-production library is valuable for testing
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
