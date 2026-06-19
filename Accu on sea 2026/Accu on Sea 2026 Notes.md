@@ -36,8 +36,15 @@ https://slides.com/d/3xvcfGk/live
 
 - Callum Piper talks about implementing python bindings using C+26 reflection
 - consteval function templates look really useful
-- 
+- Bindings to javascript, python, or rust will become trivial to generate with a library 
+- you dont need expansion statement (template for) inside consteval functions  because everything must happen at compile time, so normal for() works. 
 
+Walk with Sandor DARGO during lunch into the city center.
+## Software and Safety
+
+- Anthony Williams, 
+- Safety critical devices: when someone can get hurt, cars, airplane, pacemakers.
+- 
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
