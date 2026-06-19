@@ -44,6 +44,9 @@ Walk with Sandor DARGO during lunch into the city center.
 
 - Anthony Williams, 
 - Safety critical devices: when someone can get hurt, cars, airplane, pacemakers.
+- IEC 61508 industry standard 
+- ISO 26262 is based on it for automotive software
+-  testing, contracts , if a contract is violated, it is a bug.
 - 
 ## Information
 
