@@ -110,6 +110,7 @@ Lieven: passing heap allocated values from compile time to runtime is not possib
 - - https://rustlings.rust-lang.org/
 - Rust compiles to WASM which , wasi 3.0 API , C++ also.
 - https://emscripten.org/
+- Yosh Wuyts https://developer.microsoft.com/en-us/advocates/yoshua-wuyts
 - 
 
 
