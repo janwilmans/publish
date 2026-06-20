@@ -54,6 +54,66 @@ Walk with Sandor DARGO during lunch into the city center.
 - How to organize your 💬 thoughts
 - Tortoise AI scribe ?
 - Should AI reduce or speed up thinking  and /or cognitive load
+## Lightning talks
+
+- francis: respect wasps, leaving their next will cause them not to come back next year.
+- ubsan finds more without asan in the same build.
+## Saturday Day 4
+
+- make a check in CI that functions stay vector optimized
+- turn on compiler remarks to see why vectorization doesn't happen 
+- check the cores are not powermanaged during testing (failing powermanagement can be due to failing power management )
+-  look into a formatting of std::byte
+
+## Hana's Keynote
+- core, language, evolution?
+- constexpr implementation in clang, values are stored as APValue and can be anything 
+- Pointer provenance data, pointing past the end of array and pointing 
+- inplace_vector initially initializated or not? find out.
+- Encourage more people to help making compilers better, compilation of clang takes ~4 minutes on modern machines.
+- Hash Array Mapped Trie
+
+
+💡 idea  lifetime extension for reference types? understand how that would (not) work. Probably because the reference outside the stack, but in that case its a different problem space. We could do this for anything stack allocated? 
+
+Lieven: passing heap allocated values from compile time to runtime is not possible, for example std::string 
+
+- most standard containers are now constexpr
+- vector should be your default container unless you have a good reason to choose something else
+
+## Jason
+
+- safety in numbers
+- look at mp-units again
+-  look at ubsan minimal runtime
+- std::saturating_add is called add_sat
+- std::saturating_cast
+- safe-comparisons break type safety
+
+## Braden
+
+- snitch , compile time testing
+- k3tchup
+
+## KEYNOTE: Incrementally securing your C++ using Rust
+
+- Taylor Cramer
+- -Wlifetime-safety, needs annotations?
+- make proposal to hoist references to locals in functions outside the function to enable lifetime extension for more reference types like string_view
+- child-groups, references to sub objects excluded
+
+## Dinner at the Pullman
+
+- with Victor, Mattheui 
+- hardened pre /post conditions in the working draft
+- - check cmake for long path \\?\ and patch cmake if needed 
+- - https://rustlings.rust-lang.org/
+- Rust compiles to WASM which , wasi 3.0 API , C++ also.
+- https://emscripten.org/
+- 
+
+
+
 ## Information
 
 - ⚜️ Hey ! I'm Jan Wilmans, I am at ACCU on Sea 2026 this week and I am the author of this Live Blog.
