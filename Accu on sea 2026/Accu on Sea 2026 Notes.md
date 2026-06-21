@@ -113,8 +113,12 @@ Lieven: passing heap allocated values from compile time to runtime is not possib
 - Yosh Wuyts https://developer.microsoft.com/en-us/advocates/yoshua-wuyts
 - https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale/
 - https://opensource.microsoft.com/blog/2025/02/11/hyperlight-creating-a-0-0009-second-micro-vm-execution-time/
-- 
+- https://cocktailsdistilled.com/recipe/beton-cocktail/
 
+22:44 still at The Bouverie (Tap) having super relaxing 😎 chat with Victor Ciura
+
+
+10:20 driving to the Tunnel station
 
 
 ## Information
