@@ -5,7 +5,7 @@
 - check the cores are not powermanaged during testing (failing powermanagement can be due to failing power management )
 - look into a formatting of std::byte
 
-## Hana's Keynote
+## Hana Dusíková: Where does constexpr start and where it ends
 
 - core, language, evolution?
 - constexpr implementation in clang, values are stored as APValue and can be anything
